@@ -1,0 +1,475 @@
+
+@media (max-width: 1200px){
+
+    .header__inner{
+        justify-content: space-around;
+    }
+
+    .header__logo {
+        margin-right: 0px;
+        width: 100px;
+    }
+
+    .menu {
+        margin-right: 0px;
+
+        &__list:not(:last-child){
+            margin-right: 30px;
+        }
+    }
+
+    .hero{
+        padding: 50px 0;
+
+        &__inner{
+            justify-content: center;
+        }
+
+        &__content{
+            margin-right: 0px;
+        }
+
+
+
+        &__title{
+            font-size: 40px;
+            line-height: 54px;
+            margin: 65px 0 20px 0;
+        }
+
+        &__subtitle{
+            max-width: 430px;
+        }
+
+        &__img{
+            margin-top: 45px;
+            width: 460px;
+        }
+
+        &__btn{
+            font-size: 20px;
+            padding: 10px 25px;
+        }
+    
+    }
+
+    .about{
+        padding: 40px 0 40px 0;
+
+        &__inner{
+            justify-content: center;
+        }
+
+        &__img{
+            width: 400px;
+        }
+
+        &__subtitle{
+            line-height: 24px;
+            font-size: 16px;
+        }
+    }
+
+    .services{
+        padding: 50px 0 70px 0;
+
+        &__title{
+            margin-bottom: 45px;
+        }
+
+        &__cards{
+            display: flex;
+            justify-content: space-around;
+            column-gap: 0;
+            &--title{
+                margin-bottom: 10px;
+            }
+
+            &--subtitle{
+                width: 250px;
+            }
+
+            &--icon{
+                width: 80px;
+                margin-bottom: 5px;
+            }
+
+            &--btn{
+                padding: 6px 14px;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .footer {
+        padding: 10px 0 10px 0;
+
+        &__inner{
+            justify-content: space-evenly;
+        }
+
+        &__contacts{
+            margin-left: 0;
+        }
+
+        &__logo{
+            width: 100px;
+        }
+
+        &__text{
+            font-size: 16px;
+        }
+
+        &__subtext{
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+
+    .copyright{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+}
+
+
+@media (max-width: 992px){
+
+    .header__logo img{
+        width: 100px;
+    }
+    
+
+    .menu{
+        margin-right: 0px;
+
+        &__menu__list:not(:last-child) {
+            margin-right: 24px;
+        }
+    }
+
+    .icon{
+        display: none;
+    }
+
+    .hero{
+        text-align: center;
+
+        &__inner{
+            justify-content: center;
+        }
+        &__title{
+            margin-top: 0;
+            font-size: 38px;
+        }
+
+        &__subtitle{
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+
+        &__content{
+            margin: 0;
+        }
+
+        &__img{
+            display: none;
+        }
+    }
+
+    .about{
+
+        
+        padding: 0 0 60px 0;
+
+        &__img{
+            width: 400px;
+            margin-bottom: 44px;
+        }
+
+        &__inner{
+            text-align: center;
+            display: block;
+        }
+
+        &__title{
+            margin-top: 0;
+            font-size: 27px;
+            font-size: 41px;
+            line-height: 50px;
+        }
+
+        &__subtitle{
+            width: 460px;
+        }
+
+        &__content{
+            margin: 0 auto;
+        }
+    }
+
+    .services{
+        padding: 50px 0 50px 0;
+
+        &__cards{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &--title{
+                font-size: 40px;
+            }
+
+            &--icon{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            &--subtitle{
+                width: 500px;
+            }
+        }
+
+        .card{
+            margin-bottom: 55px;
+        }
+    }
+
+    .footer{
+        &__inner{
+            justify-content: space-evenly;
+        }
+
+        &__contacts{
+            
+            &--title{
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .copyright{
+        padding: 18px 0;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+
+    .header{
+        height: 60px;
+
+        &__inner{
+            padding: 14px 0;
+        }
+        
+        &__logo{
+            width: 60px;
+            margin: 0;
+
+            img{
+                width: 60px;
+            }
+        }
+
+    .menu{
+        padding-left: 20px;
+
+        &__list:not(:last-child){
+            margin-right: 25px;
+        }
+
+        &__link{
+            font-size: 16px;
+        }
+        }
+    }
+    
+    .hero{
+        padding: 70px 0 60px 0;
+
+        &__btn {
+            font-size: 15px;
+            padding: 13px 28px;
+        }
+
+        &__title{
+            font-size: 36px;
+            line-height: 42px;
+        }
+
+        &__subtitle{
+            margin-bottom: 45px;
+        }
+   }
+
+   .about{
+        &__content{
+            text-align: center;
+            width: 285px;
+        }
+
+        &__img{
+            text-align: center;
+            width: 300px;
+        }
+
+        &__title{
+            margin-top: 0px;
+            font-size: 30px;
+        }
+
+        &__subtitle{
+            width: 300px;
+        }
+   }
+
+   .services{
+    padding: 50px 0 0 0;
+
+        &__title{
+            font-size: 35px;
+            line-height: 45px;
+            margin-bottom: 40px;
+        }
+
+        .card:not(:last-child){
+            margin-bottom: 60px;
+        }
+
+        &__cards{
+            margin-bottom{
+                margin-bottom: 60px;
+            }
+            
+            &--title{
+                font-size: 30px;
+                margin-bottom: 15px;
+            }
+            &--icon{
+                width: 60px;
+                margin-bottom: 0;
+            }
+
+            &--subtitle{
+                width: 300px;
+            }
+        }
+   }
+
+   .footer{
+
+        &__inner{
+            display: block;
+        }
+
+        &__content{
+            display: none;
+        }
+
+        &__contacts{
+            text-align: center;
+            margin: 0;
+
+            &--title{
+                font-size: 30px;
+            }
+        }
+   }
+
+   .copyright{
+    font-size: 12px;
+    padding: 10px 0;
+   }
+}
+
+@media (max-width: 576px){
+
+    .header{
+        height: 60px;
+    }
+
+    .header__inner{
+        justify-content: space-between;
+        padding: 0;
+        position: relative;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .header__logo{
+        display: inline-block;
+
+        img{
+            margin-top: 15px;
+            width: 80px;
+        }
+    }
+    
+    .hamburger{
+        position: absolute;
+        margin-top: 15px;
+        display: block;
+        right: 0;
+        
+    }
+
+    .hero{
+
+        &__title{
+            font-size: 25px;
+        }
+
+        &__subtitle{
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+
+        &__btn{
+            font-size: 14px;
+            padding: 7px 9px;
+        }
+    }
+
+    .about{
+        padding: 0 0 40px 0;
+        &__img{
+            width: 200px;
+        }
+
+        &__title{
+            font-size: 28px;
+            line-height: 35px;
+
+        }
+    }
+
+    .services{
+        padding: 40px 0 0 0;
+
+        &__title{
+            margin-bottom: 30px;
+        }
+
+        &__cards{
+            &--btn{
+                padding: 5px 10px;
+                font-size: 16px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 320px){
+    body{
+        width: 100%;
+    }
+    
+}

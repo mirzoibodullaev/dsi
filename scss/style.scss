@@ -1,0 +1,253 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+
+
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1155px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+.navbar{
+    display: none;
+}
+.hamburger{
+    display: none;
+}
+
+.header{
+    height: 100px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+
+    &__inner{
+        display: flex;
+        align-items: center;
+        padding: 22px 0;
+    }
+
+    &__logo{
+        margin-right: 108px;
+    }
+
+   
+}
+
+.icon:not(:last-child){
+    margin-right: 24px;
+}
+
+span{
+    color: $primary-color;
+}
+
+.menu{
+    margin-right: 116px;
+    display: flex;
+
+    &__list:not(:last-child){
+        margin-right: 50px;
+    }
+
+    &__link{
+        color: $link-color;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+
+
+.hero{
+    padding: 51px 0 100px 0;
+
+    &__inner{
+        display: flex;
+    }
+
+    &__content{
+        margin-right: 17px;
+    }
+
+    &__title{
+        margin: 74px 0 24px 0;
+        max-width: 520px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: $title-color;
+
+     
+    }
+
+    &__subtitle{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: $text-color;
+        max-width: 520px;
+        margin-bottom: 24px;
+    }
+
+    &__btn{
+        @include btn;
+        padding: 12px 32px;
+    }
+
+    &__img{
+        margin-top: 59px;
+    }
+}
+
+.about{
+    padding: 57px 0 63px 0;
+    background-color: #F7F7F7;
+
+    &__inner{
+        display: flex;
+        align-items: center;
+    }
+
+  
+
+    &__content{
+        height: 100%;
+        width: 454px;
+        margin-left: 82px;
+    }
+
+    &__title{
+        margin-top: 57px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 43px;
+        color: #1F2E35;
+        margin-bottom: 24px;
+    }
+
+    &__subtitle{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: $text-color;
+    }
+}
+
+
+
+.services{
+    padding: 96px 0 87px 0;
+
+    &__title{
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 43px;
+        text-align: center;
+        color: $title-color;
+        margin-bottom: 17px;
+    }
+
+    &__cards{
+        
+        display: grid;
+        grid-template-columns: repeat(3, 363px);
+        column-gap: 43px;
+
+        &--icon{
+            width: 100px;
+            height: 100px;
+            margin-bottom: 16.7px;
+        }
+
+        &--title{
+            margin-bottom: 15px;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 37px;
+        }
+
+        &--subtitle{
+            width: 319px;
+            margin-bottom: 15px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: $text-color;
+        }
+
+        &--btn{
+            @include btn;
+            padding: 8px 16px;
+        }
+    }
+}
+
+.footer{
+    padding: 28px 0 13px 0;
+
+    &__logo{
+        margin-bottom: 10px;
+    }
+
+    &__text{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #263238;
+        margin-bottom: 8px;
+    }
+
+    &__subtext{
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
+        color: #263238;
+    }
+
+}
+
+.footer__contacts{
+    margin-left: 47px;
+    margin-top: 23px;
+
+    &--title{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #263238;
+        margin-bottom: 22px;
+
+
+    }
+}
+
+.footer__inner{
+    display: flex;
+}
+
+.contact{
+    display: block;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #263238;
+}
+
+.copyright{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 22px 0;
+    text-align: center;
+    background-color: $primary-color;
+}
+
+
+@import 'media';
+
